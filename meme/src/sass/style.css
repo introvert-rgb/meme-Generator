@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header {
+  max-width: 1440px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color: white;
+  padding: 1em 4em;
+}
+.header .header-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .header-container .left-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .header-container .left-head .trollLogo {
+  width: 50px;
+  height: 50px;
+  margin-right: 1em;
+}
+
+.main {
+  max-width: 1440px;
+  width: 70%;
+  margin: 1.5em auto;
+}
+.main .form {
+  width: 100%;
+}
+.main .form .top {
+  margin-bottom: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+.main .form .top input {
+  border-radius: 0.2em;
+  border: 1px solid rgba(129, 125, 125, 0.61);
+  width: 48%;
+  padding: 1em 4em;
+}
+.main .form .btn {
+  border-radius: 0.2em;
+  width: 100%;
+  padding: 1em 4em;
+  border: none;
+  color: white;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+}
+.main .form .memeContainer {
+  margin-top: 2em;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.main .form .memeContainer .imgMeme {
+  width: 50%;
+  margin-right: 0;
+  margin-left: 0;
+}
+.main .form .memeContainer .text {
+  color: white;
+  font-family: "Karla", sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+  position: absolute;
+}
+.main .form .memeContainer .bottomText {
+  bottom: 0;
+}
+
+.App {
+  max-height: 100vh;
+}/*# sourceMappingURL=style.css.map */
